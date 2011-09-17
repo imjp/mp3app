@@ -1,0 +1,38 @@
+$blue: #3f8dcf;
+$gray: #666;
+ 
+
+body{
+	background: #111;
+	font-size: 22px;
+	font-family: 'Myriad Pro';
+	color: #fff;
+}
+
+h1{
+	font-size: 36px;
+	margin: 30px 0 15px 0;
+	font-weight: normal;
+}
+
+a{
+	color: $blue;
+	text-decoration: none; 
+	
+	&:visited{
+		color: $blue;
+	}
+	
+	&:hover{
+		color: lighten($blue, 15%);
+	}	
+}
+
+p{
+	color: #aaa;
+}
+
+#container{
+	width: 960px;
+	margin: 100px auto 0 auto; 
+}
